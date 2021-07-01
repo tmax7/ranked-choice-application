@@ -38,3 +38,6 @@ out/
 
 ### SQL schema ###
 schema.sql
+
+### Node ###
+node_modules/
