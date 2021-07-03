@@ -41,3 +41,4 @@ schema.sql
 
 ### Node ###
 node_modules/
+webpack_compilation.txt
