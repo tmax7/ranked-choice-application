@@ -17,7 +17,6 @@
     "webpack-cli": "^4.7.2"
   },
   "scripts": {
-    "watch": "webpack--watch -d --output ./target/classes/static/built/bundle.js"
   },
   "author": "Taylor Maxfield",
   "license": "ISC"

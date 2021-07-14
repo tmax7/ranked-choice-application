@@ -42,3 +42,6 @@ schema.sql
 ### Node ###
 node_modules/
 webpack_compilation.txt
+
+### Inserts data into database ###
+src/main/java/tmax7/ranked_choice_voting_application/DatabaseLoader.java

@@ -1,13 +1,17 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/main/js/app.js',
-    devtool: 'sourcemaps',
+    entry: {
+        candidatePage: './src/main/js/candidatePage.js',
+        createSimulationPage: './src/main/js/createSimulationPage.js'
+    },
+    devtool: 'eval-cheap-module-source-map',
+    watch: true,
     cache: true,
     mode: 'development',
     output: {
-        path: __dirname,
-        filename: './src/main/resources/static/built/bundle.js'
+        path: __dirname + '/src/main/resources/static/built',
+        filename: '[name].js'
     },
     module: {
         rules: [
