@@ -12,6 +12,12 @@ public class PersonalName implements Serializable {
     String suffix;
 
     public PersonalName() {}
+    public PersonalName(String firstName, String middleName, String lastName, String suffix) {
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.lastName = lastName;
+        this.suffix = suffix;
+    }
 
     @Override
     public boolean equals(Object o) {

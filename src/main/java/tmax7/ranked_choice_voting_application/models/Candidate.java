@@ -14,6 +14,11 @@ public class Candidate implements Serializable {
 
     public Candidate() {}
 
+    public Candidate(PersonalName name, Party party) {
+        this.name = name;
+        this.party = party;
+    }
+
     public Long getId() {
         return id;
     }

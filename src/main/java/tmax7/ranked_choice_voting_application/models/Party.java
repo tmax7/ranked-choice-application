@@ -14,6 +14,10 @@ public class Party implements Serializable{
 
     public Party() {}
 
+    public Party(String name) {
+        this.name = name;
+    }
+
     public Long getId() {
         return id;
     }
