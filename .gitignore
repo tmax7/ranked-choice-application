@@ -41,6 +41,9 @@ schema.sql
 
 ### Node ###
 node_modules/
+
+### Webpack
+built/
 webpack_compilation.txt
 
 ### Inserts data into database ###
